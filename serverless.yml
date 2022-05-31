@@ -1,0 +1,32 @@
+org: networkandcode
+app: space-events-trivia
+service: space-events-trivia
+
+frameworkVersion: '3'
+
+provider:
+  environment:
+    DYNAMODB_REGION: ${aws:region}
+    DYNAMODB_TABLE: ${self:service}-users-${sls:stage}
+  iam:
+    role:
+      statements:
+      - Effect: 'Allow'
+        Action:
+        - 'dynamodb:CreateTable'
+        - 'dynamodb:PutItem'
+        - 'dynamodb:Get*'
+        - 'dynamodb:Scan*'
+        - 'dynamodb:UpdateItem'
+        - 'dynamodb:DeleteItem'
+        Resource: arn:aws:dynamodb:${aws:region}:${aws:accountId}:table/${self:service}-users-${sls:stage}
+  name: aws
+  region: ap-south-1
+  runtime: nodejs16.x
+  stage: dev
+
+functions:
+  handler:
+    handler: index.handler
+    events:
+    - alexaSkill: amzn1.ask.skill.ddfc7ffe-e020-4f4d-9fb5-ed6331040735

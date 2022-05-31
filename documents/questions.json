@@ -1,0 +1,121 @@
+[
+    {
+	    "id": 1,
+		"question": "When was Sputnik 1 launched?",
+		"answer": "1957-10-04"
+	},
+	
+	{
+	    "id": 2,
+		"question": "When was the dog named Laika, sent to Space?",
+		"answer": "1957-11-03"
+	},
+	
+	{
+	    "id": 3,
+		"question": "When did the USA launch the first satellite?",
+		"answer": "1958-01-31"
+	},
+	
+	{
+	    "id": 4,
+		"question": "When was Chandrayan-2 launched",
+		"answer": "July 22, 2019"
+	},
+	
+	{
+	    "id": 5,
+		"question": "When did Yuri Gagarin fly into the Space?",
+		"answer": "1961-04-12"
+	},
+	
+	{
+	    "id": 6,
+		"question": "When did Alan Shepard fly into the Space?",
+		"answer": "1961-05-01"
+	},
+	
+	{
+		"id": 7,
+		"question": "When was the first Indian satellite Aryabhatta launched from Kapustin Yar",
+		"answer": "April 19, 1975"
+	},
+	
+	{
+		"id": 8,
+		"question": "When did NASA and ISRO join hands to design and implement The Satellite Instructional Television Experiment, abbreviated as SITE.",
+		"answer": "August 1, 1975"
+	},
+	
+	{
+		"id": 9,
+		"question": "When was Bhaskara-I launched from Kapustin Yar",
+		"answer": "June 7, 1979"
+	},
+	
+	{
+		"id": 10,
+		"question": "When did the astronomer R.M. West discover a main belt asteroid and named it Vainu Bappu",
+		"answer": "May 19, 1979"
+	},
+	
+	{
+		"id": 11,
+		"question": "When was India’s first indigenous communication satellite, Indian National Satellite (INSAT-1 A), launched by the US Delta rocket.",
+		"answer": "April 10, 1982"
+	},
+	
+	{
+		"id": 12,
+		"question": "When did Rakesh Sharma land on Space with two Soviet cosmonauts",
+		"answer": "April 2, 1984"
+	},
+	
+	{
+		"id": 13,
+		"question": "When was Chandrayan-1 launched",
+		"answer": "October 22, 2008"
+	},
+	
+	{
+		"id": 14,
+		"question": "When was Chandrayan-1 l",
+		"answer": "October 22, 2008"
+	},
+	
+	{
+		"id": 15,
+		"question": "When did the Moon Impact Probe (MIP) of Chandrayan-1 crash-land on the lunar surface",
+		"answer":  "November 14, 2008"
+	},
+	
+	{
+		"id": 16,
+		"question": "When was Rohini satellite, RS-1 launched by the satellite launch vehicle SLV-3 in the SHAR center, Sriharikota",
+		"answer": "July 18,1980"
+	},
+	
+	{
+		"id": 17,
+		"question": "When was the unmanned space probe, the Mars Orbiter Mission (MOM), also called Mangalyaan, launched",
+		"answer": "November 5, 2013"
+	},
+	
+	{
+		"id": 18,
+		"question": "Since when was the Mangalyaan orbiting the Mars",
+		"answer": "September 24, 2014"
+	},
+	
+	{
+		"id": 19,
+		"question": "When was the Indian communications satellite GSAT-19 launched",
+		"answer": "June 5, 2017"
+	},
+	
+	{
+		"id": 20,
+		"question": "When was the Indian communications satellite GSAT-29 that aims at providing high speed bandwidth to remote village areas, launched",
+		"answer": "November 14, 2018"
+	}
+]

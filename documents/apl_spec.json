@@ -1,0 +1,24 @@
+{
+  "background": "#C87F70",
+  "type": "APL",
+  "version": "1.9",
+  "theme": "dark",
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.5.0"
+    }
+  ],
+  "mainTemplate": {
+    "parameters": [
+      "payload"
+    ],
+    "items": [
+      {
+        "type": "AlexaHeadline",
+        "primaryText": "${payload.myData.primaryText}",
+        "secondaryText": "${payload.myData.secondaryText}"
+      }
+    ]
+  }
+}

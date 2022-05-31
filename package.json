@@ -1,0 +1,14 @@
+{
+    "name": "space-events-trivia",
+    "version": "1.0.0",
+    "description": "alexa trivia skill related to space events",
+    "main": "index.js",
+    "author": "Shakir",
+    "license": "Apache License",
+    "dependencies": {
+        "ask-sdk-core": "^2.7.0",
+        "ask-sdk-model": "^1.19.0",
+        "aws-sdk": "^2.326.0",
+        "ask-sdk-dynamodb-persistence-adapter": "^2.12.1"
+    }
+}
