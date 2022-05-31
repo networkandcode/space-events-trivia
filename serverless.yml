@@ -28,4 +28,4 @@ functions:
   handler:
     handler: index.handler
     events:
-    - alexaSkill: amzn1.ask.skill.${param:alexaSkillId}
+    - alexaSkill: ${param:alexaSkillId}
